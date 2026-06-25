@@ -27,9 +27,11 @@
         "Panelis\\Blog\\Providers\\BlogServiceProvider"
       ]
     },
-    "plugins": [
-      "Panelis\\Blog\\Plugins\\BlogPlugin"
-    ]
+    "panelis": {
+      "plugins": [
+        "Panelis\\Blog\\Plugins\\BlogPlugin"
+      ]
+    }
   },
   "require-dev": {
     "laravel/pint": "^1.29"
